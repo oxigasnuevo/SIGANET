@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Blog - SIGANET</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            display: flex;
+            gap: 2rem;
+        }
+        .blog-posts {
+            flex: 3;
+        }
+        .post {
+            background-color: #fff;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .post h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        .post-meta {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+        .sidebar {
+            flex: 1;
+        }
+        .sidebar h3 {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin-bottom: 0.5rem;
+        }
+        .sidebar ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to SIGANET Blog</h1>
+        <p>Your source for technology insights and updates</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="blog-posts">
+            <article class="post">
+                <h2>Getting Started with Web Development</h2>
+                <div class="post-meta">
+                    <span>Posted on April 19, 2024</span> | <span>By John Doe</span>
+                </div>
+                <p>Web development has become an essential skill in today's digital world. Whether you're building a personal website or working on complex web applications, understanding the fundamentals is crucial.</p>
+                <p>In this post, we'll explore the basics of HTML, CSS, and JavaScript, and how they work together to create modern web experiences.</p>
+                <a href="#">Read more...</a>
+            </article>
+
+            <article class="post">
+                <h2>The Future of Artificial Intelligence</h2>
+                <div class="post-meta">
+                    <span>Posted on April 15, 2024</span> | <span>By Jane Smith</span>
+                </div>
+                <p>Artificial Intelligence is rapidly evolving and transforming industries across the globe. From machine learning algorithms to natural language processing, AI technologies are becoming more sophisticated and accessible.</p>
+                <p>We'll discuss current trends, potential applications, and what the future might hold for AI development.</p>
+                <a href="#">Read more...</a>
+            </article>
+
+            <article class="post">
+                <h2>Best Practices for Secure Coding</h2>
+                <div class="post-meta">
+                    <span>Posted on April 10, 2024</span> | <span>By Alex Johnson</span>
+                </div>
+                <p>Security should be a top priority for every developer. Writing secure code helps protect users and prevents potential vulnerabilities that could be exploited by malicious actors.</p>
+                <p>This article covers essential security practices, common vulnerabilities to avoid, and tools that can help you write more secure code.</p>
+                <a href="#">Read more...</a>
+            </article>
+        </section>
+
+        <aside class="sidebar">
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="#">Getting Started with Web Development</a></li>
+                <li><a href="#">The Future of Artificial Intelligence</a></li>
+                <li><a href="#">Best Practices for Secure Coding</a></li>
+            </ul>
+
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Artificial Intelligence</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Programming</a></li>
+            </ul>
+
+            <h3>About the Author</h3>
+            <p>SIGANET is a technology blog dedicated to sharing knowledge about programming, web development, and emerging technologies.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SIGANET Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
