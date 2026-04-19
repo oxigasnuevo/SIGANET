@@ -1,1 +1,6 @@
-console.log("Hola Mundo");
+console.log("Hola Mundo Cruel");
+console.log("Hola Mundo Cruel");
+console.log("Hola Mundo Cruel");
+console.log("Hola Mundo Cruel");
+console.log("Hola Mundo Cruel");
+console.log("Hola Mundo Cruel");
